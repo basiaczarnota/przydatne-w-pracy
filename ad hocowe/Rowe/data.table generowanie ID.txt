@@ -1,0 +1,12 @@
+Jak wygenerowaæ unikalne ID ( bez kombinowania ) na podstawie wybranych zmiennych data.table:
+
+ID_koszyk to identyfikacja koszyka, któr¹ chcemy stworzyæ.
+
+Zakupy s¹ jednym koszykiem jeœli numer klienta i data transakcji s¹ takie same (ramka danych to po prostu zakupy produktów po dacie, ale mamy przypisany numer klienta).
+
+dane[, ID_koszyk := .GRP, by = .(Data_transakcji, id_klienta)]
+
+i dostajemy kolejny numerki od 1 do liczby unikalnych koszyków.
+
+10/10 !
+Super !

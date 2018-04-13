@@ -1,0 +1,20 @@
+Gdyby interesowa³o kogoœ korzystanie z Jupyter Notebooks w jêzyku R to wrzucam instrukcjê.
+Na prywatnym laptopie mog³am bez problemu uruchomiæ Rkernel w JN, ale musia³am sobie coœ chyba poinstalowaæ w zamierzch³ych czasach w przyp³ywie s³omianego zapa³u.
+
+Za to na firmowym spotka³ mnie dramat, b³êdy i nieszczêœcie. Info poni¿ej:
+
+1.	To o czym piszê dotyczy tych, którzy JN instalowali razem z Anacond¹ 
+2.	Najszczêœliwsze osoby wpisuj¹ w konsolê Row¹ poni¿szy kod i wszystko dzia³a
+install.packages(c('repr', 'IRdisplay', 'evaluate', 'crayon', 'pbdZMQ', 'devtools', 'uuid', 'digest'))
+devtools::install_github('IRkernel/IRkernel')
+IRkernel::installspec()
+
+3.	Mniej szczêœliwe osoby musz¹ wpisaæ ostatni¹ liniê do terminala R, id¹ tu (chyba, ¿e maj¹ Ra gdzie indziej)
+C:\Users\nazwa_uzytkownika\Documents\R\R-3.4.2\bin\x64 i odpalaj¹ Rterm.exe i wpisuj¹ IRkernel::…
+
+4.	Jeszcze mniej szczêœliwe osoby robi¹ du¿o dziwnych rzeczy, które nie przynosz¹ efektów, a¿ w koñcu:
+•	odpadalaj¹ Anaconda Prompt (cmd)
+•	wpisuj¹ nastêpuj¹c¹ linijkê: conda install -c r r-essentials, czekaj¹ x minut (u mnie x > 10)
+5.	I pewnie tutaj, niektórym zadzia³a ! Ale nie wszystkim. Ci mniej szczêœliwi wpisz¹ jeszcze:
+conda update jupyter_core jupyter_client
+6.	No i tutaj ju¿ by³o ok u mnie…

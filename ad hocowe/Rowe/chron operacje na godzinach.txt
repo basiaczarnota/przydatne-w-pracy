@@ -1,0 +1,5 @@
+Do radzenia sobie z godzinami (w tym bez dat), np. obliczania ró¿nic czasowych, polecam pakiet ‘chron’.
+
+times(as.character(x)) zamienia klasê zmiennej x na klasê ‘times’ i mo¿na sobie odejmowaæ, a¿ mi³o.
+
+Pewnie robi tez inne przydatne rzeczy…
