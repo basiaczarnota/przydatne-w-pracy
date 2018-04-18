@@ -1,1 +1,3 @@
 %<>%   operator pipes and reassigns
+
+dane[,c(V1,V2)] %<>% lapply(as.numeric)
