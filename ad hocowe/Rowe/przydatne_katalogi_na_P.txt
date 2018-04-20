@@ -1,0 +1,4 @@
+Warto zajrzeć do katalogu:
+  
+1) P:\DOKUMENTY\Data_Science\meetups\kursiki\szkolenie labmaster 5 grudnia
+    - znajdują się tutaj m.in. sposoby wizualizacji surowych zbiorów danych w interaktywny sposób (do wykorzystania np. w raportach HTML)
