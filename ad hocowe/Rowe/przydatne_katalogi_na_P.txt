@@ -1,4 +1,5 @@
 Warto zajrzeć do katalogu:
   
 1) P:\DOKUMENTY\Data_Science\meetups\kursiki\szkolenie labmaster 5 grudnia
+   https://github.com/mi2-warsaw/SER/tree/master/SER_XV
     - znajdują się tutaj m.in. sposoby wizualizacji surowych zbiorów danych w interaktywny sposób (do wykorzystania np. w raportach HTML)
