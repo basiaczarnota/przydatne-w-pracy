@@ -1,5 +1,17 @@
+s³owa klucze: chron godziny czas
+keywords: chron hours time 
+
 Do radzenia sobie z godzinami (w tym bez dat), np. obliczania ró¿nic czasowych, polecam pakiet ‘chron’.
 
 times(as.character(x)) zamienia klasê zmiennej x na klasê ‘times’ i mo¿na sobie odejmowaæ, a¿ mi³o.
+
+Przyk³adowy format danych, które mo¿na zamieniæ na klasê times:
+        P5       P8
+1  9:45:00  9:35:00
+2 10:30:00 10:05:00
+3  9:00:00  8:10:25
+4  9:00:00  8:40:25
+5  9:00:00 12:45:23
+6  7:56:50  7:47:12
 
 Pewnie robi tez inne przydatne rzeczy…

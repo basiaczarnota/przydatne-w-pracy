@@ -1,3 +1,6 @@
+# s³owa klucze:
+# keywords: 
+
 library(data.table)
 
 ?rbindlist

@@ -1,3 +1,6 @@
+s³owa klucze: data.table generowanie ID id 
+keywords: data.table generating ID id 
+
 Jak wygenerowaæ unikalne ID ( bez kombinowania ) na podstawie wybranych zmiennych data.table:
 
 ID_koszyk to identyfikacja koszyka, któr¹ chcemy stworzyæ.

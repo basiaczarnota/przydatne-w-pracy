@@ -1,3 +1,6 @@
+s³owa klucze: pipe magrittr operator nadpisanie nadpisz zast¹p zast¹pienie
+keywords: pipe magrittr operator reassign
+
 %<>%   operator pipes and reassigns
 
 dane[,c(V1,V2)] %<>% lapply(as.numeric)
