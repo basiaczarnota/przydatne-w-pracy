@@ -1,5 +1,5 @@
-s³owa klucze: Jupyter Notebooks instrukcja Anaconda Rkernel R w Jupyter ipython
-keywords: Jupyter Notebooks manual instruction Anaconda Rkernel R in Jupyter ipython
+s³owa klucze: Jupyter Notebooks instrukcja Anaconda Rkernel R w Jupyter ipython instalacja R w Jupyter
+keywords: Jupyter Notebooks manual instruction Anaconda Rkernel R in Jupyter ipython install R in Jupyter
 
 Gdyby interesowa³o kogoœ korzystanie z Jupyter Notebooks w jêzyku R to wrzucam instrukcjê.
 Na prywatnym laptopie mog³am bez problemu uruchomiæ Rkernel w JN, ale musia³am sobie coœ chyba poinstalowaæ w zamierzch³ych czasach w przyp³ywie s³omianego zapa³u.

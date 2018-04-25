@@ -1,0 +1,5 @@
+s³owa klucze: programowanie porz¹dek standard programowania skrypty dobre praktyki
+keywords: style guide programming standards order scripts good practice
+
+
+http://adv-r.had.co.nz/Style.html
