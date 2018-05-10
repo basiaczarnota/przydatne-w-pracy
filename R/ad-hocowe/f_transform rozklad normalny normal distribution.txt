@@ -10,6 +10,10 @@ f_transform <- function(x){
     mice::squeeze(qnorm(f_tmp(y) - 1/(2*length(x)), 1, 1/3), c(0, 2)), 
     unif = f_tmp(x), normal = mice::squeeze(qnorm(f_tmp(x) - 1/(2*length(x)), 1, 1/3), c(0, 2))))
 } 
+
+
+LINK DO FUNKCJI https://github.com/basiaczarnota/przydatne-w-pracy/blob/master/R/ad-hocowe/f_transform.R
+
 Powy¿sza funkcja transformuje rozk³ad pierwotny na normalny (bardzo zbli¿ony do niego, bo obcinamy ogony) wyra¿ony na skali 0-2 ze œredni¹ 1.
 
 A nastêpnie liczyæ œrednie, segmentowaæ WISEm (WISe dobrze znosi zmienne o rozk³adzie normalnym) itp.
